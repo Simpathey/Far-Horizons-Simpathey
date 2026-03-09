@@ -1,10 +1,20 @@
 #region NanoTrasen ##
 
+- type: entity
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
+  id: ClothingOuterCoatBelterJacket
+  name: Belter Jacket 
+  description: Does not keep the rain off your head but outdrips the inyalowda.
+  components:
+  - type: Sprite
+    sprite: _FarHorizons/Clothing/OuterClothing/Coats/belter_jacket.rsi
+  - type: Clothing
+    sprite: _FarHorizons/Clothing/OuterClothing/Coats/belter_jacket.rsi
 
-
-
-
-
+- type: entity
+  parent: [ClothingOuterCoatBelterJacket]
+  id: ClothingOuterCoatBelterJacketOpened
+  name: Belter Jacket 
 
 
 #region Command
