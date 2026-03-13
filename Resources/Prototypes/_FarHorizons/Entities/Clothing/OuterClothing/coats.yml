@@ -1,7 +1,7 @@
 #region NanoTrasen ##
 
 - type: entity
-  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
+  parent: [ClothingOuterStorageFoldableBase, ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterCoatBelterJacket
   name: Belter Jacket 
   description: Does not keep the rain off your head but outdrips the inyalowda.
@@ -12,7 +12,7 @@
     sprite: _FarHorizons/Clothing/OuterClothing/Coats/belter_jacket.rsi
 
 - type: entity
-  parent: [ClothingOuterCoatBelterJacket]
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatBelterJacket]
   id: ClothingOuterCoatBelterJacketOpened
   name: Belter Jacket 
 
